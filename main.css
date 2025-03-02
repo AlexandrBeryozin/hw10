@@ -1,0 +1,349 @@
+body {
+    margin: 0;
+}
+* {
+    font-family: "Roboto", serif; !important;
+}
+p, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+.paragraph .nav-item .projects {
+    font-size: 16px;
+}
+.fortyplus .name {
+    font-size: 21px;
+}
+.paragraph {
+    color: #727272;
+    font-weight: 400;
+    margin: 0;
+    width: 540px;
+}
+.h2-title {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+.main-block {
+    background-color: #EEEFF1;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main-block-content-wrapper {
+    margin-top: 79px;
+    width: 1122px;
+}
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 611px;
+    margin-bottom: 162px;
+
+}
+.nav-item {
+    margin: 0;
+    line-height: 26px;
+    font-weight: 500;
+}
+.nav-item:hover {
+    color: #34547A;
+}
+.main-title-block {
+    display: flex;
+    flex-direction: column;
+    max-height: 302px;
+}
+.main-title {
+    margin-top: 0;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.main-paragraph {
+    margin-top: 0;
+    margin-bottom: 65px;
+}
+.main-button {
+    background-color: #34547A;
+    color: white;
+    width: 225px;
+    height: 65px;
+    border: none;
+}
+.secondscreen {
+    display: flex;
+    justify-content: center;
+    max-height: 359px;
+}
+.secondscreen-content-wrapper {
+    max-width: 540px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 112px;
+}
+.blue-block {
+    height: 250px;
+    background-color: #34547A;
+    display: flex;
+    justify-content: center;
+}
+.blue-block-content-wrapper {
+    height: 50px;
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+.blue-block-cont-item {
+    max-height: 50px;
+    display: flex;
+    height: 50px;
+    width: 141px;
+}
+.svg-block {
+    margin-right: 20px;
+}
+.fortyplus {
+    color: white;
+    font-weight: 500;
+}
+.projects {
+    color: white;
+    font-weight: 400;
+}
+.video-block {
+    background-color: #EEEFF1;
+    display: flex;
+    justify-content: center;
+}
+.video-cont-wrapper {
+    margin-top: 100px;
+    width: 1100px;
+    text-align: center;
+    height: auto;
+    margin-bottom: 100px;
+}
+.video-paragraph {
+    margin: 0 auto;
+}
+.text-wrapper {
+    width: 1100px;
+    text-align: center;
+}
+.video-wrapper {
+    margin-top: 57px;
+    background-image: url("img/video.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(65%);
+    height: 600px;
+    width: 1100px;
+}
+.play-button {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+footer {
+    background-color: #34547A;
+    height: 151px;
+    display: flex;
+    justify-content: center;
+}
+.footer-text-wrapper {
+    padding-top: 50px;
+    height: 60px;
+    width: 1100px;
+    color: white;
+}
+.name {
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.copyright {
+font-size: 13px;
+}
+@media (max-width: 1024px) {
+    div {
+        max-width: 1024px;
+    }
+    .main-block-content-wrapper {
+        max-width: 800px;
+    }
+    .blue-block-content-wrapper {
+        height: 150px;
+        max-width: 530px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        margin-top: 50px;
+    }
+    .text-wrapper {
+        width: 800px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .video-cont-wrapper {
+        margin-top: 60px;
+        width: 800px;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .video-wrapper {
+        margin-top: 57px;
+        height: 500px;
+        width: 800px;
+    }
+    .play-button {
+        padding-top: 200px;
+    }
+    .footer-text-wrapper {
+        padding-top: 20px;
+        width: 800px;
+    }
+    footer {
+        height: 100px;
+    }
+}
+@media (max-width: 768px) {
+    div {
+        max-width: 768px;
+    }
+    .main-block-content-wrapper {
+        margin-top: 79px;
+        width: 600px;
+    }
+    .blue-block-content-wrapper {
+        height: 150px;
+        max-width: 530px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        margin-top: 60px;
+    }
+    .text-wrapper {
+        width: 600px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .video-cont-wrapper {
+        margin-top: 60px;
+        width: 600px;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .video-wrapper {
+        margin-top: 57px;
+        height: 300px;
+        width: 600px;
+    }
+    .play-button {
+        padding-top: 100px;
+    }
+    .footer-text-wrapper {
+        padding-top: 20px;
+        width: 600px;
+    }
+    footer {
+        height: 100px;
+    }
+}
+@media (max-width: 480px) {
+    .main-block-content-wrapper {
+        margin-top: 25px;
+        width: 300px;
+    }
+
+    .paragraph .nav-item .projects {
+        font-size: 10px;
+    }
+
+    .paragraph {
+        width: 280px;
+    }
+
+    .main-title {
+        font-size: 35px;
+    }
+
+    .navmenu {
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+        max-width: 100px;
+    }
+    .nav-item {
+        margin: 0;
+        line-height: 25px;
+        font-weight: 500;
+    }
+    .main-paragraph {
+        margin-bottom: 40px;
+    }
+    .h2-title {
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+    .secondscreen {
+        max-height: 359px
+    }
+    .secondscreen-content-wrapper {
+        max-width: 375px;
+        margin-bottom: 50px;
+        margin-top: 60px;
+    }
+    .blue-block {
+        height: 300px;
+    }
+    .blue-block-content-wrapper {
+        height: 270px;
+        max-width: 280px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 20px;
+    }
+    .blue-block-cont-item {
+        width: 131px;
+    }
+    .svg-block {
+        margin-right: 10px;
+    }
+    .text-wrapper {
+        width: 280px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .video-cont-wrapper {
+        margin-top: 60px;
+        width: 375px;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .video-wrapper {
+        margin-top: 57px;
+        max-width: 375px;
+        height: 400px;
+        width: 375px;
+    }
+    .play-button {
+        padding-top: 150px;
+        max-width: 375px;
+    }
+    .footer-text-wrapper {
+        padding-top: 20px;
+        width: 375px;
+        text-align: center;
+    }
+    footer {
+        height: 100px;
+    }
+}
+
+
