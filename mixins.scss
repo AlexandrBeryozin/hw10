@@ -1,0 +1,6 @@
+@mixin font-size($size) {
+  font-size: $size;
+}
+@mixin display($display) {
+  display: $display;
+}
